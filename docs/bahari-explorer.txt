@@ -1,0 +1,39 @@
+Hardware:
+- 4 stabilizer rotors (to prevent it from being eaten up by water current)
+- Improved thrusters
+- Main motherboard: Allwiner a10 processor/cpu, pmc female connector
+- underwater RF electronics. RF for the ship and RF for the ROV and can we get video data across reliably.
+- expansion board: pmc male connector. Telemetry Sensors:
+	> stereo cameras: SONY TRV 900S
+	> ppm
+	> pH
+	> oxygen content (dissolved oxygen content)
+	> pressure	
+	> orientation
+	> depth
+	> position
+	> temperature
+	> salinity
+	> POM: Particulate Organic Matter
+	> DOM: Dissolved Organic Matter
+	> Turbidity
+	> Conductivity (level of electrolytes in water)
+	> Water current meter (water speed)
+- Beacon
+
+Software:
+- Web portal:
+	> interface to view all the telemetry data in real-time
+	> interface to view video in realtime and store the video to attached storage. Stereo-imagery
+	> add markers to data
+	> perform analytics on data
+	> generate reports
+	> view ROV's position
+	
+- Firmware:
+	> ARM Linux kernel
+	> Linux drivers to control the various sensors
+	> Linux drivers to control the rotors and monitor rotor/thrusters temperature
+	> RF status stats: power levels etc
+
+
